@@ -23,6 +23,7 @@
     height: 209px;
     width: 100%;
     display: flex;
+    gap:30px
     
 }
 .card1{
@@ -31,6 +32,7 @@
       padding: 30px ;
       border-radius: 12px ;
       border: 1px;
+      display: grid;
        gap: 12px;
     box-sizing: border-box;
     background-color: #F6F8FA;
@@ -83,20 +85,19 @@ justify-content: center;
     height: 209px ;
     padding: 16px ;
     border-radius: 12px ;
-    border: 1px ;
+    border: 1px solid ;
+    border-color: #DADCE0;
+    display: grid;
     gap: 16px;
-    border: 1px solid red;
     box-sizing: border-box;
 }
 .card2>div:nth-child(1){
-    border: 1px solid blue;
     width: 356px ;
     height: 109px;
     display: flex;
     justify-content: space-between;
 }
 .card2>div:nth-child(1)>div:first-child {
-    border: 1px solid green;
 width: 155px ;
 height:109px;
  gap: 10px;
@@ -119,7 +120,6 @@ height:109px;
     
 }
 .bottom{
-    border: 1px solid red;
     width: 155px ;
     height: 49px;
     gap: 2px
@@ -137,6 +137,143 @@ height:109px;
 .bottom>div:nth-child(2){
     width:137px;
     height: 22px ;
+    display: flex;
     gap: 10px;
-    border:1px solid blue
+    align-items: center;
+    
+    
+}
+.bottom>div:nth-child(2)>div:first-child{
+    width: 26px;
+     height: 20px;
+    font-family: Inter;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+        color:#1C4980
+}
+.bottom>div:nth-child(2)>img{
+    height: 16px ;
+    border: 1px;
+    color: #DADCE0;
+}
+.bottom>div:nth-child(2)>div:nth-child(3){
+width: Hug (91px);
+ height: Fixed (22px) ;
+ display: flex;
+ gap: 4px
+}
+.bottom>div:nth-child(2)>div:nth-child(3)>div{
+    width: 73px ;
+    height: 15px;
+    font-family: Inter;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #8DA4BF;
+}
+.bottom>div:nth-child(2)>div:nth-child(3)>img{
+    width: 14px; height: 14px
+}
+
+.last {
+    width: Fill (356px);
+     height: Hug (36px);
+     display: flex;
+     justify-content: space-between;
+}
+.last>div:first-child{
+    display: flex;
+    width: Hug (123px);
+     height: Hug (36px);
+      gap: 14px;
+}
+.last>div:first-child>div{
+    width: Hug (50px);
+     height: Hug (36px);
+     
+}
+.last>div:first-child>div>div:first-child{
+    width: 19px ;
+    height: 20px;
+    font-family: Inter;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #1C4980;
+}
+.last>div:first-child>div>div:nth-child(2){
+    width: 50px ;
+    height: 17px;
+    font-family: Inter;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #1C4980;
+}
+.last>div:nth-child(2){
+    width: Hug (117px) ;
+    height: Hug (30px);
+    display: flex;
+     gap: 10px
+
+}
+.last>div:nth-child(2)>div:first-child{
+         display: flex;
+        width: Hug (77px) ;
+        height: Fixed (30px);
+         padding: 2px 8px 2px 6px;
+          border-radius: 50px;
+        border: 1px solid ;
+        border-color: #1C4980;
+        gap: 4px;
+        align-items: center;
+    
+}
+.last>div:nth-child(2)>div:first-child>div{
+    margin: auto;
+    display: grid;
+}
+.last>div:nth-child(2)>div:first-child>div>img{
+
+    width: 20px;
+     height: 20px
+}
+.last>div:nth-child(2)>div:first-child>div>div{
+    width: 39px ;
+    height: 20px;
+    font-family: Inter;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+
+}
+.lp{
+    width: Hug (30px);
+     height: Hug (30px);
+      gap: 4px;
+      display: grid;
+     
+}
+.lp>div{
+    width: Fixed (30px);
+     height: Fixed (30px);
+      padding: 5px 6px 5px 6px;
+       border-radius: 32.727542877197266px;
+        border: 1px;
+         gap: 10px ;
+        font-size: 14px;
+        color: white;
+        background-color: #6548EE;
+        margin: auto;
 }
