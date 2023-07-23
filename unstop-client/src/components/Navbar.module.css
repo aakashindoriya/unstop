@@ -1,0 +1,26 @@
+.nav{
+    width: 1224px;
+height: 70px
+}
+.nav>table{
+    width: 100%;
+    
+}
+ td>table>tr>td:nth-child(1){
+    padding: 10px;
+width: 12%;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    border-right: 1px solid #DADCE0;
+}
+ td>table>tr>td:nth-child(2) {
+    padding: 10px;
+  width: 15%;
+     font-family: Inter;
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 16.94px;
+     color:  #0073E6;;
+ }

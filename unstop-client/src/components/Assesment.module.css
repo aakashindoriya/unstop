@@ -1,0 +1,142 @@
+
+.assesment{
+    height: 445px;
+    width: 1224px;
+    
+}
+.assesment>div:first-child{
+    height: 40px;
+    
+    width: 1224px;
+}
+.assesment>div:first-child>div{
+    height: 25px;
+    width: 137px;
+}
+
+.mainBox{
+    height: 389px;
+    width: 100%;
+
+}
+.mainBox>div:first-child{
+    height: 209px;
+    width: 100%;
+    display: flex;
+    
+}
+.card1{
+    width: 388px;
+     height:209px;
+      padding: 30px ;
+      border-radius: 12px ;
+      border: 1px;
+       gap: 12px;
+    box-sizing: border-box;
+    background-color: #F6F8FA;
+}
+.card1>div:nth-child(2){
+    margin: auto;
+    width: 328px ;
+    height: 30px;
+    font-size: 12px;
+    text-align: center;
+    
+}
+.newAssesment {
+width: 150px;
+height: 102px;
+
+margin: auto;
+display: grid;
+justify-content: center;
+
+}
+.newAssesment>div:first-child {
+    width: 70px;
+    height: 70px;
+    display: grid;
+    margin: auto;
+    background-color: white;
+    border-radius: 72px;
+
+}
+.newAssesment>div:nth-child(2) {
+    width: 150px;
+    height: 22px;
+    display: grid;
+    font-size: 18px;
+   
+
+}
+.newAssesment>div:first-child img{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    
+
+}
+
+.card2{
+    
+    width: 388px;
+    height: 209px ;
+    padding: 16px ;
+    border-radius: 12px ;
+    border: 1px ;
+    gap: 16px;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+.card2>div:nth-child(1){
+    border: 1px solid blue;
+    width: 356px ;
+    height: 109px;
+    display: flex;
+    justify-content: space-between;
+}
+.card2>div:nth-child(1)>div:first-child {
+    border: 1px solid green;
+width: 155px ;
+height:109px;
+ gap: 10px;
+ 
+}
+.icon1{
+    width: 50px ;
+    height: 50px ;
+    
+    border-radius: 12px;
+    display: grid;
+    background-color: #EBE8FD;
+    
+}
+.icon1>img{
+    width: 21.052631378173828px ;
+    height: 20px ;
+    
+    margin: auto;
+    
+}
+.bottom{
+    border: 1px solid red;
+    width: 155px ;
+    height: 49px;
+    gap: 2px
+}
+.bottom>div:first-child{
+    width: 155px;
+     height: 25px;
+    font-family: Inter;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 25px;
+        letter-spacing: 0px;
+        text-align: left;
+}
+.bottom>div:nth-child(2){
+    width:137px;
+    height: 22px ;
+    gap: 10px;
+    border:1px solid blue
+}
