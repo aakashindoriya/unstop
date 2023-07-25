@@ -24,3 +24,8 @@ width: 12%;
      line-height: 16.94px;
      color:  #0073E6;;
  }
+@media (max-width:768px) {
+    .nav{
+    display: none;
+    }
+}

@@ -29,7 +29,7 @@ function Assesment() {
           </div>
           <div className={styles.card2}>
             <div>
-              <div>
+              <div className={styles.first}>
                 <div className={styles.icon1}>
                   <img src={beg} />
                 </div>
@@ -46,7 +46,7 @@ function Assesment() {
                 </div>
               </div>
             </div>
-            <img src={line2} />
+            <img src={line2} className={styles.line} />
             <div className={styles.last}>
               <div>
                 <div>
@@ -73,7 +73,7 @@ function Assesment() {
           </div>
           <div className={styles.card2}>
             <div>
-              <div>
+              <div className={styles.first}>
                 <div className={styles.icon1}>
                   <img src={beg} />
                 </div>
@@ -90,7 +90,7 @@ function Assesment() {
                 </div>
               </div>
             </div>
-            <img src={line2} />
+            <img src={line2} className={styles.line} />
             <div className={styles.last}>
               <div>
                 <div>
